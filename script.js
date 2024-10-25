@@ -42,7 +42,7 @@ const alphabetData = {
     ],
     K: [
         { word: 'Kucing', image: 'assets/images/kucing.png', text: 'K untuk Kucing' },
-        { word: 'Kelinci', image: 'assets/images/kelinci.png', text: 'K untuk Kelinci' }
+        { word: 'Kelinci', image: 'assets/images/Kelinci.png', text: 'K untuk Kelinci' }
     ],
     L: [
         { word: 'Lumba-lumba', image: 'assets/images/lumba-lumba.png', text: 'L untuk Lumba-lumba' },
