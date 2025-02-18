@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa; /* Warna latar belakang halaman */
+}
+
+.center-menu {
+    text-align: center;
+}
+
+
+.row img {
+max-height: 20vw; /* Set the max height of the images */
+width: auto; /* Maintain image aspect ratio */
+}
+h1{
+font-family:'Concert One', 'Arial Narrow', Arial, sans-serif;
+font-size: 20vw;
+}
+.btn{
+cursor: pointer;
+}
+
+.alphabet{
+    font-size: 25vw;    
+}
+.card{
+    background-color: #f8f9fa;
+    border: 0;
+}
+.card h5{
+    padding-top: 3vw;
+    font-size: 3vw;
+}
+/* Optional styling for cursor pointer on carousel */
+#carouselExampleControls {
+cursor: pointer;
+}
+*{
+/* border: 1px solid black; */
+}
