@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/alfabet.css">
+  <title>Alfabet Seru</title>
+</head>
+<body>
+    <div class="container center-menu">
+        <div class="row menu">
+          <div class="btn col prev">
+            <div class="card text-primary">
+              <img src="/assets/image/kiri.png" class="card-img" alt="Gambar">
+              <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                <h5 class="card-title">Kembali</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h1 class="alphabet" id="alphabet">A</h1>
+          </div>
+          <div class="btn col next">
+            <div class="card text-primary">
+              <img src="/assets/image/kanan.png" class="card-img" alt="Gambar">
+              <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                <h5 class="card-title">Lanjut</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="btn col play">
+            <audio controls autoplay id="audio" hidden>
+              <source src="/assets/audio/1.wav" type="audio/mp3">
+            </audio>
+            <!-- <img src="/assets/image/play.png" alt=""> -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"><a class="btn btn-outline-primary mt-3" href="/index.html">Kembali</a></div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="./assets/js/alfabet.js"></script>
